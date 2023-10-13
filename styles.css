@@ -6,7 +6,8 @@
 }
 
  body{
-    background-color:#e3e9e5;
+    background-color:rgb(197, 197, 193);
+    
  }
 
 .caixa{
@@ -52,8 +53,8 @@ h1{
    
     font-size: 30px;
     display: inline-block;
-    margin-left: 350px;
-    padding: 25px;
+    margin-left: 300px;
+    padding: 35px;
     color: #f2761d;
     text-shadow: 10px 10px 0 #000;
 }
@@ -75,15 +76,15 @@ ul{
 }
 
 li{
-    height: -40px;
-    width: -40px;
+    height: -60px;
+    width: -60px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     position: relative;
     display: inline-block;
     cursor: pointer;
     font-size: 20px;
     text-align: center;
-    margin: 30px;
+    margin: 20px;
     border-radius: 70px;
     transition: all 0.6 cubic-bezier(0.165, 0.84, 0.44, 1);
     margin-bottom: 60px;
@@ -101,7 +102,7 @@ li:after{
 
 }
 .imagem-produto{
-    width: 350px;
+    width: 250px;
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
@@ -164,6 +165,73 @@ h3{
    
 
 }
+
+@media screen and (max-width:900px){
+    .caixa{
+        width: 85vh;
+        height: 80vw;
+    }
+    .logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h1{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logo2{
+        display: flex;
+        width: 85vh;
+        height: 80vw;
+    }
+    .container{
+        width: 85vh;
+        height: 80vw;
+    }
+    .paragrafo p{
+        font-size: 30px;
+        display: inline-block;
+        margin-left: 60px;
+        padding: 35px;
+        color: #f2761d;
+        text-shadow: 10px 10px 0 #000;
+    }
+    h2{
+        text-align: center;
+        font-size: 40px;
+        width: 85vh;
+        height: 25vw;
+        margin-top: 35px; 
+       
+    }
+    ul{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 85vh;
+        
+    }
+    .bottom{
+        width: 85vh;
+        height: 90vw;
+    }
+    h3{
+        text-align: center;
+
+    }
+    .fim{
+        text-align: justify;
+    }
+        
+    
+
+   
+}
+    
+
 
 
 
